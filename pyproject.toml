@@ -1,0 +1,14 @@
+[project]
+name = "ragstudy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
